@@ -1,0 +1,7 @@
+/*
+II. Read from a text file
+
+Write a C Program that reads from the previous created
+text file and displays the saved number.
+
+*/
