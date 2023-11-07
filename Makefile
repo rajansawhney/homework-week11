@@ -1,19 +1,13 @@
 CC = gcc
 
-write_txt: write_txt.c
-	gcc write_txt.c -o write_txt
+write_read_student_info: write_read_student_info.c
+	gcc write_read_student_info.c -o write_read_student_info
 
-read_txt: read_txt.c
-	gcc read_txt.c -o read_txt
-
-write_binary: write_binary.c
-	gcc write_binary.c -o write_binary
-
-read_binary: read_binary.c
-	gcc read_binary.c -o read_binary
+read_reverse: read_reverse.c
+	gcc read_reverse.c -o read_reverse
 
 clean:
-	rm write_txt read_txt write_binary read_binary lab11.txt lab11.bin
+	rm write_read_student_info read_reverse hw11.txt
 
-test: write_txt read_txt write_binary read_binary
+test: write_read_student_info read_reverse 
 	bash test.sh

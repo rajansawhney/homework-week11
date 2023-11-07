@@ -1,0 +1,10 @@
+Barack
+60
+Bruno
+40
+Taylor
+35
+Travis
+33
+Patsy
+85

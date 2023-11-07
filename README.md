@@ -1,5 +1,5 @@
 # ICS 212
-## Lab - Week 11
+## Homework - Week 11
 
 # Files Input/Output
 
@@ -8,7 +8,7 @@
 
 **NOTE**: 
 - Github is not a place to test your code. Test it on your machines first. Do not exceed 10 commits. If you exceed 10 commits, your grade will be penalized.
-- Do not edit Makefile, test.sh, and files in test folder
+- Do not edit Makefile, test.sh, and files in test folder.
 
 ### Steps to submit changes:
 1. Click on desired .c to open file
