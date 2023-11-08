@@ -14,15 +14,15 @@ Enter age: 22
 .
 Displaying student information:
 Name: student1
-age: 24
+Age: 24
 
 Name: student2
-age: 21
+Age: 21
 .
 .
 .
 Name: student5
-age: 30
+Age: 30
 
 Note:
 - File "hw11.txt" must be created in the same directory as the program
