@@ -8,10 +8,10 @@ output_write_read_student_info=$(./write_read_student_info < test/input_write_re
 echo $output_write_read_student_info
 
 expected_output_student_info1="Name: Barack
-Age: 60"
+Age: 60"| tr -d '\r'
 
 expected_output_student_info5="Name: Patsy
-Age: 85"
+Age: 85"| tr -d '\r'
 
 FILE=$(dirname "$BASH_SOURCE")/hw11.txt
 if [ -f "$FILE" ]; then
